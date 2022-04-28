@@ -31,7 +31,7 @@ public class Area_Rectangle extends AppCompatActivity implements View.OnClickLis
         enableFullscreen();
 
         txtAnswer = findViewById(R.id.txtans);
-        txtLth = findViewById(R.id.txtInputB);
+        txtLth = findViewById(R.id.txtInputR);
         txtWdt = findViewById(R.id.txtInputH);
         btnCalculate = findViewById(R.id.btnCal);
         btnBack = findViewById(R.id.btnBack);

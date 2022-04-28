@@ -31,7 +31,7 @@ public class Area_rhombus extends AppCompatActivity implements View.OnClickListe
         enableFullscreen();
 
         txtInputQ = findViewById(R.id.txtInputH);
-        txtInputP = findViewById(R.id.txtInputB);
+        txtInputP = findViewById(R.id.txtInputR);
         txtAnswer = findViewById(R.id.txtans);
         btnBack = findViewById(R.id.btnBack);
         btnCalculate = findViewById(R.id.btnCal);

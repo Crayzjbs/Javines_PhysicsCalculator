@@ -32,7 +32,7 @@ public class area_triangle extends AppCompatActivity implements View.OnClickList
         enableFullscreen();
 
         txtAnswer = findViewById(R.id.txtans);
-        txtBase = findViewById(R.id.txtInputB);
+        txtBase = findViewById(R.id.txtInputR);
         txtHeight = findViewById(R.id.txtInputH);
         btnBack = findViewById(R.id.btnBack);
         btnCalculate = findViewById(R.id.btnCal);
