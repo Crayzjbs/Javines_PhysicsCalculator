@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORMULA"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <Button
+        android:id="@+id/btnCir"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="44dp"
+        android:text="Circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTria"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:text="TRIANGLE"
+        app:layout_constraintEnd_toEndOf="@+id/btnRhom"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnRhom"
+        app:layout_constraintTop_toBottomOf="@+id/btnRhom" />
+
+    <Button
+        android:id="@+id/btnRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="RECTANGLE"
+        app:layout_constraintStart_toStartOf="@+id/btnCir"
+        app:layout_constraintTop_toBottomOf="@+id/btnCir" />
+
+    <Button
+        android:id="@+id/btnRhom"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
+        android:text="RHOMBUS"
+        app:layout_constraintEnd_toEndOf="@+id/btnRec"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/btnRec"
+        app:layout_constraintTop_toBottomOf="@+id/btnRec" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AREA"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/btnCone"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="48dp"
+        android:text="CONE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/btnTria" />
+
+    <Button
+        android:id="@+id/btnSph"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+
+        android:layout_marginTop="40dp"
+        android:text="Sphere"
+        app:layout_constraintEnd_toEndOf="@+id/btnCone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnCone"
+        app:layout_constraintTop_toBottomOf="@+id/btnCone" />
+
+    <Button
+        android:id="@+id/btnCyc"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+
+        android:layout_marginTop="40dp"
+        android:text="Cyclinder"
+        app:layout_constraintEnd_toEndOf="@+id/btnSph"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnSph"
+        app:layout_constraintTop_toBottomOf="@+id/btnSph" />
+
+    <Button
+        android:id="@+id/btnCub"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+
+        android:layout_marginTop="36dp"
+        android:text="CUBE"
+        app:layout_constraintEnd_toEndOf="@+id/btnCyc"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnCyc"
+        app:layout_constraintTop_toBottomOf="@+id/btnCyc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
